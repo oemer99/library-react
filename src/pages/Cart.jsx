@@ -76,7 +76,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
             {cart.length === 0 && (
               <div className="cart__empty">
                 <img src={EmptyCart} alt="" className="cart__empty--img" />
-                <h2>You don't have an boks in your cart!</h2>
+                <h2>You don't have an books in your cart!</h2>
                 <Link to="/books">
                   <button className="btn">Browse books</button>
                 </Link>
